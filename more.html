@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<title>HHT WEBSITE</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="tasarim.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="moremenu.css">
+<link rel="stylesheet" href="vin.css">
+<link rel="stylesheet" href="icon.css">
+ <body  background="arkaplan3.jpg">
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<script>
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+</head>
+<script src="js/myscript.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="navbar navbar-expand-lg kapsayici">
+
+  <div class="container-fluid">
+
+    <button1 class="navbar-toggler" type="button1" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="icon-list2"></span>
+	  <img src="" class="img-fluid logo" alt=""/>
+    </button1>
+	
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	  <li class="nav-item me-5 ">
+          <a class="nav-link" href="homepage.html">HOMEPAGE</a>
+        </li>
+        <li class="nav-item  me-5">
+          <a class="nav-link" href="news.html">News</a>
+        </li>
+        <li class="nav-item  me-5">
+          <a class="nav-link" href="culture.html">Culture</a>
+        </li>
+		 <li class="nav-item  me-5">
+          <a class="nav-link" href="sport.html">Sport</a>
+        </li>
+		 <li class="nav-item me-5 ">
+          <a class="nav-link" href="travel.html">Travel</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           More
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="more.html">Communication</a></li>
+            <li><a class="dropdown-item" href="signin.html">Sign In</a></li>
+                        </ul>
+        </li>
+        
+      </ul>
+	  <nav class="navbar navbar-expand-lg yazirenk">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+
+</nav>
+ 
+ <body>
+    <h2 class="w3-center">Contact Form</h2>
+ <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  <label for="lname">E-mail</label>
+    <input type="text" id="lname" name="lastname" placeholder="mail@example..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Algeria</option>
+      <option value="usa">Azerbaijan</option>
+	      <option value="australia">Belgium</option>
+      <option value="canada">Brazil</option>
+      <option value="usa">Canada</option>
+	      <option value="australia">China</option>
+      <option value="canada">Cyprus</option>
+      <option value="usa">Denmark</option>
+	      <option value="australia">El Salvador</option>
+      <option value="canada">France</option>
+      <option value="usa">Germany</option>
+	      <option value="australia">Hungary</option>
+      <option value="canada">India</option>
+      <option value="usa">Italy</option>
+	      <option value="australia">Japan</option>
+      <option value="canada">Liberia</option>
+      <option value="usa">Madagascar</option>
+	      <option value="australia">Mexico</option>
+      <option value="canada">New Zealand</option>
+      <option value="usa">Portugal</option>
+	      <option value="australia">Romania</option>
+      <option value="canada">Slovakia</option>
+      <option value="usa">Switzerland</option>
+	       <option value="australia">Turkey</option>
+      <option value="canada">Ukraine</option>
+      <option value="usa">United States of America</option>
+	      <option value="australia">Uruguay</option>
+      <option value="canada">Zambia</option>
+      <option value="usa">Zimbabwe</option>
+	  
+	  
+	  
+	  
+    </select>
+
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+       
+<button onclick="document.getElementById('id01').style.display='block'">CONTACT</button>
+
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="pp.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+     <div class="popup" onclick="myFunction()"><button type="submit">Login</button>
+  <span class="popuptext" id="myPopup">YOUR MESSAGE HAS REACHED US. A RETURN WILL BE MADE AS SOON AS POSSIBLE.</span>
+</div>
+	  
+    
+
+
+  <label>
+  
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+
+
+ 
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="password.html">password?</a></span>
+    </div>
+  </form>
+</div>
+
+  
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="hht.jpg" alt="John" style="width:100%">
+  <h1>Hasan Hüseyin TAYAP</h1>
+  <p class="title">Student</p>
+  <p>Eskişehir Technical University</p>
+  <a href="mailto:TAYAP61@gmail.com"><i class="fa fa-dribbble"></i></a>
+  <a href="https://twitter.com/codenameHHT?s=20"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.youtube.com/channel/UC7cmvPRJTMu8VWNSOSHuiNg/videos"><i class="fa fa-youtube"></i></a>
+   <a href="https://tr.linkedin.com"><i class="fa fa-linkedin"></i></a>
+     <a href="https://tr-tr.facebook.com"><i class="fa fa-facebook-official"></i></a>
+  
+</div>
+  
+  
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://tr-tr.facebook.com"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://tr.pinterest.com"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://twitter.com/codenameHHT?s=20"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.youtube.com/channel/UC7cmvPRJTMu8VWNSOSHuiNg/videos"><i class="fa fa-youtube"></i></a>
+  <a href="https://tr.linkedin.com"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  
+	<div id="footer">
+	<p><font size="3" face="Arial Narrow">
+Made by Hasan Hüseyin TAYAP . @All rights reserved
+</div>
+  </p>
+</footer>
+
+</html>
+
+  
+
+
